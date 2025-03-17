@@ -1,5 +1,9 @@
 import unittest
+import pytest
 from priority_queue import PriorityQueue
+
+# pytest 마커 추가
+pytestmark = pytest.mark.unittest
 
 class TestPriorityQueue(unittest.TestCase):
 
